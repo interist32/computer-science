@@ -2,8 +2,9 @@
 
 My hobby project for Computer Science practice.
 
-## Sorting
-* Merge sorting algorithm
+## Sorting algorithms
+* Merge sorting
+* Bubble sorting
 
 ### Running
 Git clone this repo, and install dependencies:
