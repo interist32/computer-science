@@ -13,7 +13,7 @@ function mergeSort(source) {
 }
 
 function merge(left, right) {
-    const resultLength = Math.max(left.length, right.length);
+    const resultLength = left.length + right.length;
 
     let result = [];
     let k = 0,
@@ -24,7 +24,7 @@ function merge(left, right) {
         if (left[i] < right[j]) {
             result[k] = left[i];
             i++;
-        } else if (right[j] < left[i]) {
+        } else {
             result[k] = right[j];
             j++;
         }
