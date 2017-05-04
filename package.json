@@ -1,0 +1,19 @@
+{
+  "name": "computer-science",
+  "version": "1.0.0",
+  "description": "My hobby project for Computer Science practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interist32/computer-science.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/interist32/computer-science/issues"
+  },
+  "homepage": "https://github.com/interist32/computer-science#readme"
+}
