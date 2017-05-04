@@ -4,7 +4,7 @@
   "description": "My hobby project for Computer Science practice",
   "main": "index.js",
   "scripts": {
-    "test": "mocha sorting/**/*.spec.js"
+    "test": "mocha sorting/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,9 @@
     "url": "https://github.com/interist32/computer-science/issues"
   },
   "homepage": "https://github.com/interist32/computer-science#readme",
-  "dependencies": {
+  "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.3.0"
-  }
+  },
+  "keywords": ["computer science", "unit testing", "nodejs", "mocha"]
 }
