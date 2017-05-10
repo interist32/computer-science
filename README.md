@@ -3,8 +3,9 @@
 My hobby project for Computer Science practice.
 
 ## Sorting algorithms
-* Merge sorting ***O(n log(n))***
-* Bubble sorting ***O(n<sup>2</sup>)***
+* Merge sort ***O(n log(n))***
+* Bubble sort ***O(n<sup>2</sup>)***
+* Insertion sort ***O(n<sup>2</sup>)***
 
 ### Running
 Git clone this repo, and install dependencies:

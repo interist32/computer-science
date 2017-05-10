@@ -3,6 +3,7 @@ const assert = require('chai').assert;
 const sortings = [
     require('./bubble'),
     require('./merge'),
+    require('./insertion'),
 ];
 
 sortings.forEach(sortingFunction => {
