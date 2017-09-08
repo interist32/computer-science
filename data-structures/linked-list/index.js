@@ -24,10 +24,15 @@ SinglyList.prototype.add = function (value) {
 };
 
 SinglyList.prototype.remove = function (value) {
+    if (this.head && this.head.value === value) {
+        this.head = this.head.next;
+        return;
+    }
+
     let currentNode = this.head;
 
-    while(currentNode.next){
-        if(currentNode.next.value === value){
+    while (currentNode.next) {
+        if (currentNode.next.value === value) {
             let removingNode = currentNode.next;
             currentNode.next = removingNode.next;
             break;
@@ -110,4 +115,8 @@ list.print();
 
 console.log('Remove value from the end');
 list.remove(2);
+list.print();
+
+console.log('Remove value from the start');
+list.remove(1);
 list.print();
