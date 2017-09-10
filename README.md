@@ -6,6 +6,7 @@ My hobby project for Computer Science practice.
 * Binary search tree ***O(log(n))***
 * Singly linked list ***O(n)***
 * Stack ***O(1)***
+* Queue ***Push O(n), Pop O(1)***
 
 ## Sorting algorithms
 * Merge sort ***O(n log(n))***
