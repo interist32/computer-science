@@ -5,6 +5,7 @@ My hobby project for Computer Science practice.
 ## Data structures
 * Binary search tree ***O(log(n))***
 * Singly linked list ***O(n)***
+* Stack ***O(1)***
 
 ## Sorting algorithms
 * Merge sort ***O(n log(n))***
